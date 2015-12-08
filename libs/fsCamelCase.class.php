@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
  * Copyright 2015 Julian Lasso <ingeniero.julianlasso@gmail.com>.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,28 +22,13 @@ namespace fsCamelCasePlugin;
  * Description of camelCaseClass
  *
  * @author Julian Lasso <ingeniero.julianlasso@gmail.com>
+ * @package fsCamelCasePlugin
+ * @version 1.0.0
  */
 class fsCamelCase {
 
   /**
-   * Variable estatica para guardar la instancia de la clase camelCaseClass
-   * @var camelCaseClass 
-   */
-  private static $instance;
-
-  /**
-   * Instanciación de la clase camelCaseClass
-   * @return camelCaseClass
-   */
-  public static function getInstance() {
-    if (!isset(self::$instance)) {
-      self::$instance = new self();
-    }
-    return self::$instance;
-  }
-
-  /**
-   * 
+   * Método principal para la conversión de texto a tipo camelCase
    * @param string $str
    * @param array $exclude
    * @return string
