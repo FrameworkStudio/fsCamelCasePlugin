@@ -21,6 +21,12 @@ namespace fsCamelCasePlugin;
 use FStudio\fsPlugin;
 use FStudio\myConfig as config;
 
+/**
+ * Plugin para el manejo de la librería camelCase para Framework Studio
+ * @author Julian Lasso <ingeniero.julianlasso@gmail.com>
+ * @package fsCamelCasePlugin
+ * @version 1.0.0
+ */
 class plugin extends fsPlugin {
 
   public function __construct(config $config) {
