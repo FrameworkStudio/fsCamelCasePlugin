@@ -31,7 +31,7 @@ class plugin extends fsPlugin {
 
   public function __construct(config $config) {
     parent::__construct($config);
-    require_once $config->getPath() . 'libs/plugins/fsCamelCasePlugin/libs/fsCamelCasePlugin.class.php';
+    require_once $config->getPath() . 'libs/plugins/fsCamelCasePlugin/libs/fsCamelCase.class.php';
   }
 
 }
